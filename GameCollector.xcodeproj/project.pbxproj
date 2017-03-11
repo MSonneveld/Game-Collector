@@ -13,6 +13,8 @@
 		248C32AC1E685ACD00259504 /* GameCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 248C32AA1E685ACD00259504 /* GameCollector.xcdatamodeld */; };
 		248C32AE1E685ACD00259504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 248C32AD1E685ACD00259504 /* Assets.xcassets */; };
 		248C32B11E685ACD00259504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248C32AF1E685ACD00259504 /* LaunchScreen.storyboard */; };
+		248C32B91E6863EA00259504 /* kim.png in Resources */ = {isa = PBXBuildFile; fileRef = 248C32B81E6863EA00259504 /* kim.png */; };
+		248C32BB1E6864DF00259504 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248C32BA1E6864DF00259504 /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		248C32AD1E685ACD00259504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		248C32B01E685ACD00259504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		248C32B21E685ACD00259504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		248C32B81E6863EA00259504 /* kim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kim.png; sourceTree = "<group>"; };
+		248C32BA1E6864DF00259504 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				248C32A31E685ACD00259504 /* AppDelegate.swift */,
 				248C32A51E685ACD00259504 /* ViewController.swift */,
 				248C32A71E685ACD00259504 /* Main.storyboard */,
+				248C32BA1E6864DF00259504 /* GameViewController.swift */,
+				248C32B81E6863EA00259504 /* kim.png */,
 				248C32AD1E685ACD00259504 /* Assets.xcassets */,
 				248C32AF1E685ACD00259504 /* LaunchScreen.storyboard */,
 				248C32B21E685ACD00259504 /* Info.plist */,
@@ -128,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				248C32B11E685ACD00259504 /* LaunchScreen.storyboard in Resources */,
+				248C32B91E6863EA00259504 /* kim.png in Resources */,
 				248C32AE1E685ACD00259504 /* Assets.xcassets in Resources */,
 				248C32A91E685ACD00259504 /* Main.storyboard in Resources */,
 			);
@@ -140,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				248C32BB1E6864DF00259504 /* GameViewController.swift in Sources */,
 				248C32AC1E685ACD00259504 /* GameCollector.xcdatamodeld in Sources */,
 				248C32A61E685ACD00259504 /* ViewController.swift in Sources */,
 				248C32A41E685ACD00259504 /* AppDelegate.swift in Sources */,
